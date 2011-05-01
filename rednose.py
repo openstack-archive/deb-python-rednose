@@ -86,7 +86,7 @@ class RedNose(nose.plugins.Plugin):
 		self._in_test = False
 	
 	def _format_test_name(self, test):
-		return test.shortDescription() or str(test)
+		return test.shortDescription() or unicode(test)
 	
 	def prepareTestResult(self, result):
 		try:
@@ -265,7 +265,7 @@ class RedNose(nose.plugins.Plugin):
 		return '\n'.join(ret)
 	
 	def _fmt_message(self, exception, color):
-		orig_message_lines = str(exception).splitlines()
+		orig_message_lines = unicode(exception).splitlines()
 
 		if len(orig_message_lines) == 0:
 			return ''
