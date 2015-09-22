@@ -1,3 +1,14 @@
+python-rednose (0.4.1-2) UNRELEASED; urgency=low
+
+  * Removed version for python-all build-depends.
+  * Fixed debian/gbp.conf .
+  * Fixed debian/watch file to use the PyPi redirector.
+  * Add myself to Uploaders field.
+  * Remove Pre-Depends field from debian/control .
+  * Add python-nose dependency in Depends fields.
+
+ -- Ivan Udovichenko <iudovichenko@mirantis.com>  Tue, 22 Sep 2015 16:36:44 +0300
+
 python-rednose (0.4.1-1) unstable; urgency=low
 
   * Initial release. (Closes: #742586)
