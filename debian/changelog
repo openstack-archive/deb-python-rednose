@@ -6,6 +6,7 @@ python-rednose (0.4.1-2) UNRELEASED; urgency=low
   * Add myself to Uploaders field.
   * Remove Pre-Depends field from debian/control .
   * Add python-nose dependency in Depends fields.
+  * Standards-Version is now 3.9.6 (no change).
 
  -- Ivan Udovichenko <iudovichenko@mirantis.com>  Tue, 22 Sep 2015 16:36:44 +0300
 
