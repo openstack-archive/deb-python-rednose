@@ -2,17 +2,14 @@ Source: python-rednose
 Section: python
 Priority: optional
 Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
-Uploaders: Julien Danjou <acid@debian.org>,
-           Thomas Goirand <zigo@debian.org>,
-           Mehdi Abaakouk <sileht@sileht.net>,
-           Gonéri Le Bouder <goneri@debian.org>,
+Uploaders: Thomas Goirand <zigo@debian.org>,
            Ivan Udovichenko <iudovichenko@mirantis.com>,
 Build-Depends: debhelper (>= 9),
                dh-python,
                python-all,
                python-setuptools,
                python3-all,
-               python3-setuptools
+               python3-setuptools,
 Standards-Version: 3.9.6
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-rednose.git
 Vcs-Git: git://anonscm.debian.org/openstack/python-rednose.git
@@ -20,7 +17,9 @@ Homepage: http://gfxmonk.net/dist/0install/rednose.xml
 
 Package: python-rednose
 Architecture: all
-Depends: python-nose, ${misc:Depends}, ${python:Depends}
+Depends: python-nose,
+         ${misc:Depends},
+         ${python:Depends},
 Description: coloured output for nosetests - Python 2.x
  rednose is a nosetests plugin for adding colour (and readability) to nosetest
  console results. Rednose by default uses auto-colouring, which will only use
@@ -30,7 +29,9 @@ Description: coloured output for nosetests - Python 2.x
 
 Package: python3-rednose
 Architecture: all
-Depends: python3-nose, ${misc:Depends}, ${python3:Depends}
+Depends: python3-nose,
+         ${misc:Depends},
+         ${python3:Depends},
 Description: coloured output for nosetests - Python 3.x
  rednose is a nosetests plugin for adding colour (and readability) to nosetest
  console results. Rednose by default uses auto-colouring, which will only use
