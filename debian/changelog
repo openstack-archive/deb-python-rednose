@@ -1,3 +1,9 @@
+python-rednose (0.4.1-3) UNRELEASED; urgency=medium
+
+  * Fixed VCS URLs (https).
+
+ -- Ondřej Nový <novy@ondrej.org>  Sun, 28 Feb 2016 15:48:21 +0100
+
 python-rednose (0.4.1-2) unstable; urgency=low
 
   [ Ivan Udovichenko ]

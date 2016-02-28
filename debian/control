@@ -11,8 +11,8 @@ Build-Depends: debhelper (>= 9),
                python3-all,
                python3-setuptools,
 Standards-Version: 3.9.6
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-rednose.git
-Vcs-Git: git://anonscm.debian.org/openstack/python-rednose.git
+Vcs-Browser: https://anonscm.debian.org/cgit/openstack/python-rednose.git/
+Vcs-Git: https://anonscm.debian.org/git/openstack/python-rednose.git
 Homepage: http://gfxmonk.net/dist/0install/rednose.xml
 
 Package: python-rednose
